@@ -7,8 +7,8 @@
 
 这里呢，主要还是用到的是ScrollView,因为可能一屏展示不完全。
 
-`
- int width = scrollView.getWidth();
+```
+        int width = scrollView.getWidth();
         int height = 0;
         for (int i = 0; i < scrollView.getChildCount(); i++) {
             View childView = scrollView.getChildAt(i);
@@ -19,12 +19,12 @@
         Canvas canvas = new Canvas(bitmap);
         canvas.drawColor(Color.WHITE);
         scrollView.draw(canvas);
-`
-
+```
+        
 这里有一个坑，就是，当ScrollView有设置padding的时候，只能绘制当前一屏的图像。
 
-`
- String path = getApplication().getExternalCacheDir().getAbsolutePath() + File.separator + "share";
+```
+String path = getApplication().getExternalCacheDir().getAbsolutePath() + File.separator + "share";
         File file = new File(path);
         if (!file.exists()) {
             boolean mkdirs = file.mkdirs();
@@ -53,5 +53,5 @@
                 e.printStackTrace();
             }
         }
-`
+```
 
