@@ -2,10 +2,10 @@
 模拟掌阅书籍选中段落分享
 
 # 分享图片效果
-![](http://olpu32iyy.bkt.clouddn.com/18-4-17/26614812.jpg)
+![](http://olpu32iyy.bkt.clouddn.com/18-4-17/52384716.jpg)
 
 # 项目实现GIF
-
+![](http://olpu32iyy.bkt.clouddn.com/18-4-17/14849432.jpg)
 
 # 功能要点 
 + 1.获取View图像绘制到bitmap
