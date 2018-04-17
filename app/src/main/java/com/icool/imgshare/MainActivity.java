@@ -59,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
     public File createSharePic(ScrollView scrollView) {
         int width = scrollView.getWidth();
         int height = 0;
-        // 获取listView实际高度
         for (int i = 0; i < scrollView.getChildCount(); i++) {
             View childView = scrollView.getChildAt(i);
             height += childView.getHeight();
