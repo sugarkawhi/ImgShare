@@ -1,6 +1,12 @@
 # ImgShare
 模拟掌阅书籍选中段落分享
 
+# 分享图片效果
+![](http://olpu32iyy.bkt.clouddn.com/18-4-17/26614812.jpg)
+
+# 项目实现GIF
+
+
 # 功能要点 
 + 1.获取View图像绘制到bitmap
 + 2.Bitmap 存储到本地文件
